@@ -1,4 +1,4 @@
-window.onload = initlinks;
+window.onload = initLinks;
 
  var myPix = new
  Array("s.png","r.png","t.png");
@@ -6,7 +6,7 @@ window.onload = initlinks;
 
  function initLinks(){
  document.getElementById("prevLink").onclick=processPrevious;
- document.getElementryById("nextLink").onclick=processNext;
+ document.getElementById("nextLink").onclick=processNext;
  }
  function processPrevious(){
    if(thisPic == 0) {
@@ -14,7 +14,7 @@ window.onload = initlinks;
    }
    thisPic--;
    document.getElementById("myPicture").src=myPix[thisPic];
-
+return false;
    }
 
    function processNext(){
@@ -23,5 +23,5 @@ window.onload = initlinks;
     thisPic = 0;
 	}
 	document.getElementById("myPicture").src =myPix[thisPic];
-
+return false;
 	}

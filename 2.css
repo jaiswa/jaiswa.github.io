@@ -1,5 +1,7 @@
-body{background-image:url(3.png);
-width:400px;
+body{width:1200px;
+background-image:url(3.png);
+background-repeat:no repeat;
+
 margin:0px;
 }
 #header {background-image:url(7.png);
@@ -32,6 +34,7 @@ font-size:15px;
 }
 h1{font-family:Californian FB;
 color:#F5E3B4;
+font-weight:normal;
 }
 #a{position:relative;
 left:183px;
@@ -43,18 +46,18 @@ top:-59px;
 }
 #c{position:relative;
 left:24px;
-top:-8px;
+top:-6px;
 }
 #d{position:relative;
 width:20px;
 height:28px;
 left:695px;
-top:-140px;
+top:-93px;
 }
 #e{position:relative;
 width:108px;
 height:28px;
-top:-171px;
+top:-120px;
 left:826px;
 }
 #f{position:relative;
@@ -76,7 +79,7 @@ top:27px;
 }
 h2{font-family:Myriad Pro;
 font-weight:normal;
-color:#F5E3B4;
+color:#8e4423;
 }
 #i{position:relative;
 left:50px;
@@ -85,7 +88,7 @@ top:5px;
 
 h3{font-size:15px;
 font-family:Myriad Pro;
-color:#F5E3B4;
+color:#646363;
 font-weight:normal;
 }
 #j{width:474px;
@@ -98,7 +101,7 @@ font-weight:normal;
 font-family:Myriad Pro;
 line-height:13px;
 
-color:#F5E3B4;
+color:#7b7a6d;
 }
 #k{position:relative;
 left:7px;
@@ -120,6 +123,7 @@ h5{font-size:20px;
 font-weight:normal;
 font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
 word-spacing:242px;
+color:8e4423;
 }
 #o{position:relative;
 left:135px;
@@ -239,9 +243,70 @@ color:#725142;
 top:-1440px;
 left:20px;
 }
+#kl{position:relative;
+top:-2225px;
+}
+#lm{position:relative;
+top:-2338px;
+left:40px;
+}
+a:link{color:#e6e3bb;
+text-decoration:none;
+}
+a:visited{color:#e6e3bb;}
+a:active{color:#8e4423;}
+ul{list-style-type:none;}
+
+li{list-style-type:none;}
+
+nav ul ul {
+	display: none;
+}
+nav ul li:hover > ul {
+		display: block;
+	}
+	
+	nav ul:after {
+		content: ""; clear: both; display: block;
+	}
 
 
 
+	
+	nav ul li {
+	float: left;
+}
+	
+	nav ul li a {
+		display: block; padding: 25px 15px;border-radius:20px
+		 text-decoration: none;
+	}
+	nav ul ul {
+	background-image:url(10.png); 
+	position: absolute; top: 100%;
+}
+nav ul ul li {
+		float: none; 
+		
+		
+		position: relative;
+		}
+	
+	nav ul ul li a {
+			padding: 15px 1px;
+			
+		}	
+			
+		
 
+#ax{position:relative;
+top:-3400px;
+left:127px;
+}
+h15{font-size:15px;
+font-family: "Myriad Pro";
+font-weight:normal;
+color:#e6e3bb;
+}
 
 
