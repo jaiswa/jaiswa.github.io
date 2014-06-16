@@ -1,0 +1,51 @@
+<html>
+<head>
+<script type="text/javascript" src="jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="1.js"></script>
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="jquery-ui.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="puzzle.css"/>
+<script type="text/javascript">
+$(function(){
+ 
+    
+    $('#bouncy1').click(function () {
+          $(this).effect("bounce", { direction:'up', times:1000 }, 1000);
+    });
+ 
+    $('#bouncy2').click(function () {
+          $(this).effect("bounce", { direction:'left', times:1000}, 1000);
+    });
+ 
+    $('#bouncy3').click(function () {
+          $(this).effect("bounce", { direction:'right', times:1000 }, 1000);
+    });
+ 
+    $('#bouncy4').click(function () {
+          $(this).effect("bounce", { direction:'down', times:1000 }, 1000);
+    });
+ 
+    
+    $("#bounceAll").click(function(){
+        $("div").click();
+    });
+});
+</script>
+</head>
+<body>
+
+
+
+
+	<div id="bouncy1"><a href="puzzlelevel.html"><img src="pu1.png"/></a></div>
+	<div id="bouncy2"><a href="index.html"><img src="pu2.png"/></a></div>
+<div id="bouncy3"><a href="puzzlelevel.html"><img src="pu3.png"/></a></div>
+	<div id="bouncy4"><a href="instruction.html"><img src="pu4.png"/></a></div>
+
+<div id="bounceAll"><h1>CLICK ME!!</h1></div>
+
+
+
+</body>
+</html>

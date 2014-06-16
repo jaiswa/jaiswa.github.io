@@ -1,312 +1,117 @@
-body{width:1200px;
-background-image:url(3.png);
-background-repeat:no repeat;
-
-margin:0px;
-}
-#header {background-image:url(7.png);
-background-repeat:no repeat;
-position:absolute;
-width:960px;
-left:182.5px;
-height:75px;
+#a{position:absolute;
+left:300px;
 
 }
-#featured {
-position:absolute;
-width:960px;
-left:352.5px;
-height:285px;
-top:75px;
+#b{position:absolute;
+left:450px;
+
 }
-#content{background-image:url(bdbg.png);
-background-repeat:no repeat;
-position:absolute;
-left:182.5px;
-width:962px;
-height:1347px;
-top:355px;
+#c{position:absolute;
+left:600px;
+
 }
-p{font-family:calibri;
-color:#F5E3B4;
-word-spacing:34px;
-font-size:15px;
+#d{position:absolute;
+left:750px;
+
 }
-h1{font-family:Californian FB;
-color:#F5E3B4;
-font-weight:normal;
+#e{position:absolute;
+left:300px;
+top:213px;
+
 }
-#a{position:relative;
-left:183px;
-top:-102px;
+#f{position:absolute;
+left:450px;
+top:213px;
+
 }
-#b{position:relative;
-left:161px;
-top:-59px;
+#g{position:absolute;
+left:600px;
+top:213px;
+
 }
-#c{position:relative;
-left:24px;
-top:-6px;
+#h{position:absolute;
+left:750px;
+top:213px;
+
 }
-#d{position:relative;
-width:20px;
-height:28px;
-left:695px;
-top:-93px;
+#i{position:absolute;
+left:300px;
+top:363px;
+
+
 }
-#e{position:relative;
-width:108px;
-height:28px;
-top:-120px;
-left:826px;
+
+
+
+#k{position:absolute;
+left:450px;
+top:363px;
+
 }
-#f{position:relative;
-left:389px;
+#l{position:absolute;
+left:600px;
+top:363px;
+
+}
+#m{position:absolute;
+left:750px;
+top:363px;
+
+}
+
+#n{position:absolute;
+left:300px;
+top:512px;
+
+}
+#o{position:absolute;
+left:450px;
+top:512px;
+
+}
+#p{position:absolute;
+left:600px;
+top:512px;
+
+}
+#q{position:absolute;
+left:750px;
+top:512px;
+
+}
+
+h2{
+color: black;
+  font-size:20px;
+  padding-left:10px;
+  padding-right:10px;
+  border: 2px solid black;
+  background: #33ff66;
+  background: linear-gradient(to bottom, #33ff66 0%,#009900 100%);
+  display:inline-block;
+  border-radius: 10px;
+  font-family:Myriad pro;
+
+}
+h1{
+
+  font-size:20px;
+  padding-left:10px;
+  padding-right:10px;
+  border: 2px solid black;
+  background: #33ff66;
+  background: linear-gradient(to bottom, #33ff66 0%,#009900 100%);
+  display:inline-block;
+  border-radius: 10px;
+  font-family:Myriad pro;
+  
+}
+body{
+background:#000000;
+}
+a:link{text-decoration:none;
+}
+#mess{position:absolute;
+left:120px;
 top:10px;
 }
-#g{position:relative;
-left:20px;
-top:48px;
-}
-.photo {float:left;
-
-
-margin-right:10px;
-}
-#h{position:relative;
-left:50px;
-top:27px;
-}
-h2{font-family:Myriad Pro;
-font-weight:normal;
-color:#8e4423;
-}
-#i{position:relative;
-left:50px;
-top:5px;
-}
-
-h3{font-size:15px;
-font-family:Myriad Pro;
-color:#646363;
-font-weight:normal;
-}
-#j{width:474px;
-position:relative;
-left:463px;
-top:-4px;
-}
-h4{font-size:13px;
-font-weight:normal;
-font-family:Myriad Pro;
-line-height:13px;
-
-color:#7b7a6d;
-}
-#k{position:relative;
-left:7px;
-top:20px;
-}
-#l{position:relative;
-left:115px;
-top:25px;
-}
-#m{position:relative;
-left:426px;
-top:-85px;
-}
-#n{position:relative;
-left:736px;
-top:-200px;
-}
-h5{font-size:20px;
-font-weight:normal;
-font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
-word-spacing:242px;
-color:8e4423;
-}
-#o{position:relative;
-left:135px;
-top:-220px;
-}
-h8{font-size:14px;
-font-family: "Myriad Pro";
-font-weight:normal;
-color:#7b7a6d;
-}
-#p{position:relative;
-left:70px;
-top:-250px;
-}
-
-#q{position:relative;
-left:383px;
-top:-365px;
-}
-#r{position:relative;
-left:693px;
-top:-483px;
-}
-#s{position:relative;
-top:-500px;
-left:130px;
-}
-h6{
-word-spacing:220px;
-}
-h7{color:#8F4523;
-font-size:20px;
-font-family:"Myriad Pro";
-font-weight:600;
-}
-#u{position:relative;
-top:-210px;
-left:13px;
-}
-#t{position:relative;
-top:-200px;
-left:20px;
-}
-#v{position:relative;
-top:-415px;
-left:285px;
-}
-#w{position:relative;
-top:-530px;
-left:442px;
-}
-#x{position:relative;
-top:-720px;
-left:500px;
-}
-h9{color:#8F4523;
-font-size:20px;
-font-family:"Myriad Pro";
-font-weight:900;
-}
-#y{position:relative;
-top:-710px;
-left:460px;
-}
-#z{position:relative;
-top:-846px;
-left:661px;
-}
-#ab{position:relative;
-top:-772px;
-left:462px;
-}
-#bc{position:relative;
-top:-807px;
-left:559px;
-}
-#cd{position:relative;
-top:-814px;
-left:929px;
-}
-#de{position:relative;
-top:-760px;
-left:20px;
-}
-#ef{position:relative;
-top:-775px;
-left:10px;
-}
-#fg{position:relative;
-top:-780px;
-left:10px;
-}
-#gh{position:relative;
-top:-910px;
-left:337px;
-}
-#hi{position:relative;
-top:-1100px;
-left:570px;
-}
-h12{font-size:15px;
-font-family: "Myriad Pro";
-font-weight:normal;
-color:#4f504b;
-line-height:200%;
-}
-#ij{position:relative;
-top:-1370px;
-left:800px;
-}
-h13{font-size:13px;
-font-family: "Myriad Pro";
-font-weight:normal;
-color:#725142;
-}
-#jk{position:relative;
-top:-1440px;
-left:20px;
-}
-#kl{position:relative;
-top:-2225px;
-}
-#lm{position:relative;
-top:-2338px;
-left:40px;
-}
-a:link{color:#e6e3bb;
-text-decoration:none;
-}
-a:visited{color:#e6e3bb;}
-a:active{color:#8e4423;}
-ul{list-style-type:none;}
-
-li{list-style-type:none;}
-
-nav ul ul {
-	display: none;
-}
-nav ul li:hover > ul {
-		display: block;
-	}
-	
-	nav ul:after {
-		content: ""; clear: both; display: block;
-	}
-
-
-
-	
-	nav ul li {
-	float: left;
-}
-	
-	nav ul li a {
-		display: block; padding: 25px 15px;border-radius:20px
-		 text-decoration: none;
-	}
-	nav ul ul {
-	background-image:url(10.png); 
-	position: absolute; top: 100%;
-}
-nav ul ul li {
-		float: none; 
-		
-		
-		position: relative;
-		}
-	
-	nav ul ul li a {
-			padding: 15px 1px;
-			
-		}	
-			
-		
-
-#ax{position:relative;
-top:-3400px;
-left:127px;
-}
-h15{font-size:15px;
-font-family: "Myriad Pro";
-font-weight:normal;
-color:#e6e3bb;
-}
-
-

@@ -1,0 +1,349 @@
+<html>
+<head>
+<title>yo mama</title>
+
+<link rel="stylesheet" type="text/css" href="5.css"/>
+
+</head>
+<body >
+
+<h1 id="fly">
+LEVEL :3
+</h1>
+<script type="text/javascript">
+
+
+message = document.getElementById("fly").innerHTML; 
+distance = 50; 
+speed = 200; 
+
+var txt="",
+	num=0,
+	num4=0,
+	flyofle="",
+	flyofwi="",
+	flyofto="",
+	fly=document.getElementById("fly");
+
+
+function stfly() {
+	for(i=0;i != message.length;i++) {
+		if(message.charAt(i) != "$")
+			txt += "<span style='position:relative;visibility:hidden;' id='n"+i+"'>"+message.charAt(i)+"<\/span>";
+		else
+			txt += "<br>";
+	}
+	fly.innerHTML = txt;
+	txt = "";
+	flyofle = fly.offsetLeft;
+	flyofwi = fly.offsetWidth;
+	flyofto = fly.offsetTop;
+	fly2b();
+}
+
+function fly2b() {
+	if(num4 != message.length) {
+		if(message.charAt(num4) != "$") {
+			var then = document.getElementById("n" + num4);
+			then.style.left = flyofle - then.offsetLeft + flyofwi / 2;
+			then.style.top = flyofto - then.offsetTop + distance;
+			fly3(then.id, parseInt(then.style.left), parseInt(then.style.left) / 5, parseInt(then.style.top), parseInt(then.style.top) / 5);
+		}
+		num4++;
+		setTimeout("fly2b()", speed);
+	}
+}
+
+function fly3(target,lef2,num2,top2,num3) {
+	if((Math.floor(top2) != 0 && Math.floor(top2) != -1) || (Math.floor(lef2) != 0 && Math.floor(lef2) != -1)) {
+		if(lef2 >= 0)
+			lef2 -= num2;
+		else
+			lef2 += num2 * -1;
+		if(Math.floor(lef2) != -1) {
+			document.getElementById(target).style.visibility = "visible";
+			document.getElementById(target).style.left = Math.floor(lef2);
+		} else {
+			document.getElementById(target).style.visibility = "visible";
+			document.getElementById(target).style.left = Math.floor(lef2 + 1);
+		}
+		if(lef2 >= 0)
+			top2 -= num3
+		else
+			top2 += num3 * -1;
+		if(Math.floor(top2) != -1)
+			document.getElementById(target).style.top = Math.floor(top2);
+		else
+			document.getElementById(target).style.top = Math.floor(top2 + 1);
+		setTimeout("fly3('"+target+"',"+lef2+","+num2+","+top2+","+num3+")",50)
+	}
+}
+
+stfly()
+
+</script>
+
+<div id="a" style="display:none" >
+<img height="150" width="150" src="9.jpg"/>
+</div>
+<div id="b" style="display:none" >
+<img height="150" width="150" src="16.jpg"/>
+</div>
+<div id="c" style="display:none" >
+<img height="150" width="150" src="6.jpg"/>
+</div>
+<div id="d" style="display:none" >
+<img height="150" width="150" src="14.jpg"/>
+</div>
+<div id="e" style="display:none">
+<img height="150" width="150"  src="13.jpg"/>
+</div>
+<div id="f" style="display:none" >
+<img height="150" width="150" src="19.jpg"/>
+</div>
+<div id="g" style="display:none" >
+<img height="150" width="150" src="2.jpg"/>
+</div>
+<div id="h" style="display:none" >
+<img height="150" width="150" src="1.jpg"/>
+</div>
+<div id="i"style="display:none">
+<img height="150" width="150" src="11.jpg"/>
+</div>
+
+<div id="k"style="display:none" >
+<img height="150" width="150" src="12.jpg"/>
+</div>
+<div id="l" style="display:none">
+<img height="150" width="150" src="3.jpg"/>
+</div>
+<div id="m" style="display:none">
+<img height="150" width="150" src="4.jpg"/>
+</div>
+
+
+<div id="n" style="display:none">
+<img height="150" width="150" src="8.jpg"/>
+</div>
+<div id="o"  style="display:none">
+<img height="150" width="150" src="17.jpg"/>
+</div>
+<div id="p"  style="display:none">
+<img height="150" width="150" src="18.jpg"/>
+</div>
+<div id="q"  style="display:none">
+<img height="150" width="150" src="7.jpg"/>
+</div>
+<h1 Id="message"></h1>
+
+
+
+<div id="but">
+<h2 id="show" onclick="show_imagea();" >GET YOUR FIRST CLUE!!</h2>
+</div>
+<div id="but0" style="display:none">
+<h2 id="show" onclick="show_imageb();" >GET ANOTHER ONE</h2>
+</div>
+
+<div id="buta" style="display:none">
+<h2 id="show" onclick="show_imagec();" >GET ANOTHER ONE</h2>
+</div>
+
+<div id="butb" style="display:none">
+<h2 id="show" onclick="show_imaged();" >GET ANOTHER ONE</h2>
+</div>
+
+<div id="butc" style="display:none">
+<h2 id="show" onclick="show_imagee();" >GET ANOTHER ONE</h2>
+</div>
+<div id="butd" style="display:none">
+<h2 id="show" onclick="show_imagef();" >GET ANOTHER ONE</h2>
+</div>
+<div id="bute" style="display:none">
+<h2 id="show" onclick="show_imageg();" >GET ANOTHER ONE</h2>
+</div>
+<div id="butf" style="display:none">
+<h2 id="show" onclick="show_imageh();" >GET ANOTHER ONE</h2>
+</div>
+<div id="butg" style="display:none">
+<h2 id="show" onclick="show_imagei();" >GET ANOTHER ONE</h2>
+</div>
+<div id="buth" style="display:none">
+<h2 id="show" onclick="show_imagek();" >GET ANOTHER ONE</h2>
+</div>
+<div id="buti" style="display:none">
+<h2 id="show" onclick="show_imagel();" >GET ANOTHER ONE</h2>
+</div>
+<div id="butj" style="display:none">
+<h2 id="show" onclick="show_imagem();" >GET ANOTHER ONE</h2>
+</div>
+<div id="butk" style="display:none">
+<h2 id="show" onclick="show_imagen();" >GET ANOTHER ONE</h2>
+</div>
+<div id="butl" style="display:none">
+<h2 id="show" onclick="show_imageo();" >GET ANOTHER ONE</h2>
+</div>
+<div id="butm" style="display:none">
+<h2 id="show" onclick="show_imagep();" >GET ANOTHER ONE</h2>
+</div>
+<div id="butn" style="display:none">
+<h2 id="show" onclick="show_imageq();" >GET ANOTHER ONE</h2>
+</div>
+
+<h1>CAN U GUESS!!!</h1>
+<h1><a href="index.html">EXIT</a></h1>
+
+
+
+<script type="text/javascript">
+function show_imagea()
+{
+    document.getElementById("a").style.display="block"; 
+document.getElementById("message").innerHTML="SCORE:200";	
+document.getElementById("but").style.display="none"; 	
+   document.getElementById("but0").style.display="block";  
+}
+function show_imageb()
+{
+document.getElementById("b").style.display="block"; 
+document.getElementById("message").innerHTML="SCORE:190";	
+document.getElementById("but0").style.display="none"; 	
+   document.getElementById("buta").style.display="block";
+}
+function show_imagec()
+{
+    document.getElementById("c").style.display="block"; 
+document.getElementById("message").innerHTML="SCORE:180";
+document.getElementById("buta").style.display="none"; 	
+   document.getElementById("butb").style.display="block";	
+  
+}
+function show_imaged()
+
+{
+    document.getElementById("d").style.display="block"; 
+document.getElementById("message").innerHTML="SCORE:170";
+document.getElementById("butb").style.display="none"; 	
+   document.getElementById("butc").style.display="block";	
+  
+}
+function show_imagee()
+
+{
+    document.getElementById("e").style.display="block"; 
+document.getElementById("message").innerHTML="SCORE:160";
+document.getElementById("butc").style.display="none"; 	
+   document.getElementById("butd").style.display="block";	
+  
+}
+function show_imagef()
+
+{
+    document.getElementById("f").style.display="block"; 
+document.getElementById("message").innerHTML="SCORE:150";
+document.getElementById("butd").style.display="none"; 	
+   document.getElementById("bute").style.display="block";	
+  
+}
+function show_imageg()
+
+{
+    document.getElementById("g").style.display="block"; 
+document.getElementById("message").innerHTML="SCORE:140";
+document.getElementById("bute").style.display="none"; 	
+   document.getElementById("butf").style.display="block";	
+  
+}
+function show_imageh()
+
+{
+    document.getElementById("h").style.display="block"; 
+document.getElementById("message").innerHTML="SCORE:130";
+document.getElementById("butf").style.display="none"; 	
+   document.getElementById("butg").style.display="block";	
+  
+}
+function show_imagei()
+
+{
+    document.getElementById("i").style.display="block"; 
+document.getElementById("message").innerHTML="SCORE:120";
+document.getElementById("butg").style.display="none"; 	
+   document.getElementById("buth").style.display="block";	
+  
+}
+function show_imagek()
+
+{
+    document.getElementById("k").style.display="block"; 
+document.getElementById("message").innerHTML="SCORE:110";
+document.getElementById("buth").style.display="none"; 	
+   document.getElementById("buti").style.display="block";	
+  
+}
+function show_imagel()
+
+{
+    document.getElementById("l").style.display="block"; 
+document.getElementById("message").innerHTML="SCORE:100";
+document.getElementById("buti").style.display="none"; 	
+   document.getElementById("butj").style.display="block";	
+  
+}
+function show_imagem()
+
+{
+    document.getElementById("m").style.display="block"; 
+document.getElementById("message").innerHTML="SCORE:90";
+document.getElementById("butj").style.display="none"; 	
+   document.getElementById("butk").style.display="block";	
+  
+}
+function show_imagen()
+
+{
+    document.getElementById("n").style.display="block"; 
+document.getElementById("message").innerHTML="SCORE:80";
+document.getElementById("butk").style.display="none"; 	
+   document.getElementById("butl").style.display="block";	
+  
+}
+function show_imageo()
+
+{
+    document.getElementById("o").style.display="block"; 
+document.getElementById("message").innerHTML="SCORE:70";
+document.getElementById("butl").style.display="none"; 	
+   document.getElementById("butm").style.display="block";	
+  
+}
+function show_imagep()
+
+{
+    document.getElementById("p").style.display="block"; 
+document.getElementById("message").innerHTML="SCORE:60";
+document.getElementById("butm").style.display="none"; 	
+   document.getElementById("butn").style.display="block";	
+  
+}
+function show_imageq()
+
+{
+    document.getElementById("q").style.display="block"; 
+document.getElementById("message").innerHTML="SCORE:00";
+document.getElementById("butm").style.display="none"; 	
+   document.getElementById("butn").style.display="block";	
+  
+}
+
+
+
+
+
+
+
+
+</script>
+
+</body>
+</html>
